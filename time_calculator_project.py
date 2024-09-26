@@ -51,12 +51,12 @@ def add_time(start, duration,day_of_week = ""):
                 return time_converted +', '+next_day+' ('+str(total_days)+' days later)'
         
 
-    
-#print(add_time('3:00 PM', '3:10'))   
-#print(add_time('11:30 AM', '2:32', 'Monday'))   
-#print(add_time('11:43 PM', '00:20'))
-#print(add_time('10:10 PM', '3:30'))
-#print(add_time('11:43 PM', '24:20', 'tueSday'))
-#print(add_time('6:30 PM', '205:12'))
-#print(add_time('11:59 PM', '24:05'))
-print(add_time('12:59 PM', '00:05', 'Wednesday'))
+if __name__ == "__main__":    
+    #print(add_time('3:00 PM', '3:10'))   
+    #print(add_time('11:30 AM', '2:32', 'Monday'))   
+    #print(add_time('11:43 PM', '00:20'))
+    #print(add_time('10:10 PM', '3:30'))
+    #print(add_time('11:43 PM', '24:20', 'tueSday'))
+    #print(add_time('6:30 PM', '205:12'))
+    #print(add_time('11:59 PM', '24:05'))
+    print(add_time('12:59 PM', '00:05', 'Wednesday'))
